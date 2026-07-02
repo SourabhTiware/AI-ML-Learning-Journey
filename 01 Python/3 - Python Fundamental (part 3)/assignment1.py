@@ -212,3 +212,106 @@
 
 # print("Unique characters:", unique_chars)
 # print("Count of unique characters:", len(unique_chars))
+
+
+
+# -----------------------------------------------------------------------------
+# Que1: ask the user for a string and check whether it is a palindrome or not. 
+# -----------------------------------------------------------------------------
+
+# original_string = "madam"
+
+# user_string = input("enter any string : ")
+
+# reverse_str = user_string[::-1]
+
+# if(original_string == reverse_str):
+#     print("it's palindrome string")
+# else:
+#     print("It's not palindronme string ")
+
+# -----------------------------------------------------------------------------
+# Que 2: Given a list of integers compute the average of all numbers in the list. 
+# -----------------------------------------------------------------------------
+
+a_list = [2,3,49,39]
+sum = 0
+
+for i in a_list:
+    sum += i
+
+avg = sum / len(a_list)
+
+print(avg)
+
+
+# -----------------------------------------------------------------------------
+# Que 3: Input two lists of integers from the user. Merge them into one list and sort the result
+# list1 = [1,2,7] list = [2,4,5]
+# result = [1,2,3,54,5,7]
+# -----------------------------------------------------------------------------
+
+# list1 = [1,2,7] 
+# list = [2,4,5]
+
+# merger_list = list1 + list
+
+# merger_list.sort()
+# print(merger_list)
+
+
+# -----------------------------------------------------------------------------
+# Que 4: Given a tuple of integers, create
+# A tuple of all even numbers
+# A tuple of all odd numbers
+# -----------------------------------------------------------------------------
+
+
+# tupl = (1,2,3,4,5,6,7,8,9,10)
+# even_tup = ()
+# odd_tup = ()
+
+
+
+# for i in tupl:
+#     if(i % 2 == 0):
+#         even_tup += (i,)
+#     else:
+#         odd_tup += (i,)
+
+# print(even_tup)
+# print(odd_tup)
+
+
+# -----------------------------------------------------------------------------
+# Que 5: Create a dictionary where:
+# keys = student names
+# vales = marks (intger)
+
+"""
+    Write a menu - based program where user presses a key ('A','B','C','D') depending on the operation they want to perform
+    on the dictionary:
+    1. A - Add a student
+    2. B - Update marks
+    3. C - Search for a student
+    4. D - Display all student and marks. 
+"""
+# -----------------------------------------------------------------------------
+
+# dict = {}
+
+# while(True):
+#     print("Choose one option from following")
+
+#     print("A - add a student")
+#     print("B - Update a marks")
+#     print("C - Search for a studnet")
+#     print("D - Display all student and marks")
+
+#     choice = input("\n Enter your choice : ")
+
+#     match choice:
+#         case "A":
+
+
+
